@@ -1,0 +1,26 @@
+package prj1;
+ class test2
+{
+	int len,wid;
+	test2(int x,int y)
+	{
+		len=x; wid=y;
+	}
+	void area()
+	{
+		int a=len*wid;
+		System.out.println("area"+a);
+	}
+}
+
+public class area1 {
+
+	public static void main(String[] args)
+	{
+		test2 t = new test2(12,4);
+		t.area();
+		// TODO Auto-generated method stub
+
+	}
+
+}
